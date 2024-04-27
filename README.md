@@ -19,6 +19,22 @@ Each element of the system is mathematically related as shown below, using the l
 
 $$\begin{matrix}b_{k}^{i} \\ b_{j}^{i}\end{matrix}=k^{i}\begin{matrix}1 & -1 \\ -1 & 1\end{matrix}\begin{matrix}x_{k}^{i} \\ x_{j}^{i}\end{matrix}$$
 
+$$
+\begin{bmatrix}
+b_{k}^{i} \\ 
+b_{j}^{i}
+\end{bmatrix} = k^{i}
+\begin{bmatrix}
+1 & -1 \\ 
+-1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+x_{k}^{i} \\ 
+x_{j}^{i}
+\end{bmatrix}
+$$
+
+
 where $x_{k}^{i}$ and $x_{j}^{i}$ are the unknowns, $b_{k}^{i}$, $b_{j}^{i}$ and $k^i$ are constants.
 Each system of one-dimensional elements contains a certain number of nodes and elements. Considering that each element has an associated local matrix, a global matrix of the entire system can be obtained. This matrix is formed according to the connectivity of the elements. This global matrix is represented as follows:
 
