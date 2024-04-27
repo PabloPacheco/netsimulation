@@ -51,9 +51,7 @@ where the global matrix $\mathbf{A}\left(\mathbf{x}\right)$ is a function of the
 
 The solution of the linear system is carried out using the partition method. Depending on the type of physics of the problem to be solved and the type of boundary conditions of the system, the unknowns may be in the vector $\mathbf{x}$ or in the vector $\mathbf{b}$. For this reason, the global system of equations is partitioned as follows:
 
-$$
-\mathbf{A} \mathbf{x} = \mathbf{b} \quad \rightarrow \quad
-\begin{bmatrix}
+$$ \begin{bmatrix}
 \mathbf{A}_E & \mathbf{A}_{EF} \\
 \mathbf{A}_{EF}^T & \mathbf{A}_F
 \end{bmatrix}
@@ -61,8 +59,7 @@ $$
 \mathbf{x}_E \\
 \mathbf{x}_F
 \end{bmatrix}
-=
-\begin{bmatrix}
+= \begin{bmatrix}
 \mathbf{b}_E \\
 \mathbf{b}_F
 \end{bmatrix}
