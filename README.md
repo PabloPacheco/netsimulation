@@ -56,6 +56,24 @@ The solution of the linear system is carried out using the partition method. Dep
 $$ \mathbf{A} \mathbf{x} = \mathbf{b} \quad \rightarrow \quad \left[\begin{matrix} \mathbf{A}_E & \mathbf{A}_{EF} \\  \mathbf{A}_{EF}^T & \mathbf{A}_F\end{matrix} \right]
 \left[\begin{matrix} \mathbf{x}_E \\ \mathbf{x}_F \end{matrix} \right] = \left[\begin{matrix} \mathbf{b}_E \\ \mathbf{b}_F\end{matrix}\right] $$
 
+$$
+\mathbf{A} \mathbf{x} = \mathbf{b} \quad \rightarrow \quad
+\begin{bmatrix}
+\mathbf{A}_E & \mathbf{A}_{EF} \\
+\mathbf{A}_{EF}^T & \mathbf{A}_F
+\end{bmatrix}
+\begin{bmatrix}
+\mathbf{x}_E \\
+\mathbf{x}_F
+\end{bmatrix}
+=
+\begin{bmatrix}
+\mathbf{b}_E \\
+\mathbf{b}_F
+\end{bmatrix}
+$$
+
+
 where:
 - $\mathbf{x}_F$: nodes where $x$ is unknown
 - $\mathbf{x}_E$: nodes where $x$ is known
