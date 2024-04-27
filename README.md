@@ -61,13 +61,11 @@ $$
 \mathbf{x}_E \\
 \mathbf{x}_F
 \end{bmatrix}
-=
-\begin{bmatrix}
+= \begin{bmatrix}
 \mathbf{b}_E \\
 \mathbf{b}_F
 \end{bmatrix}
 $$
-
 
 where:
 - $\mathbf{x}_F$: nodes where $x$ is unknown
