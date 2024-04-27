@@ -17,8 +17,6 @@ where the one-dimensional element is represented as follows:
 
 Each element of the system is mathematically related as shown below, using the local matrix of the element:
 
-$$\begin{matrix}b_{k}^{i} \\ b_{j}^{i}\end{matrix}=k^{i}\begin{matrix}1 & -1 \\ -1 & 1\end{matrix}\begin{matrix}x_{k}^{i} \\ x_{j}^{i}\end{matrix}$$
-
 $$
 \begin{bmatrix}
 b_{k}^{i} \\ 
@@ -52,9 +50,6 @@ where the global matrix $\mathbf{A}\left(\mathbf{x}\right)$ is a function of the
 ### Linear Systems
 
 The solution of the linear system is carried out using the partition method. Depending on the type of physics of the problem to be solved and the type of boundary conditions of the system, the unknowns may be in the vector $\mathbf{x}$ or in the vector $\mathbf{b}$. For this reason, the global system of equations is partitioned as follows:
-
-$$ \mathbf{A} \mathbf{x} = \mathbf{b} \quad \rightarrow \quad \left[\begin{matrix} \mathbf{A}_E & \mathbf{A}_{EF} \\  \mathbf{A}_{EF}^T & \mathbf{A}_F\end{matrix} \right]
-\left[\begin{matrix} \mathbf{x}_E \\ \mathbf{x}_F \end{matrix} \right] = \left[\begin{matrix} \mathbf{b}_E \\ \mathbf{b}_F\end{matrix}\right] $$
 
 $$
 \mathbf{A} \mathbf{x} = \mathbf{b} \quad \rightarrow \quad
