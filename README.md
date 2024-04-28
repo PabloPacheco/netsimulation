@@ -53,3 +53,13 @@ The code works for me with the following:
 - scipy 1.4.1
 - numba 0.55.1
 - matplotlib 3.5.3
+
+## Improvements
+
+The improvements compared to the code in Brebbia's book are mentioned below:
+
+- The matrices are stored in CSR format, using the scipy.sparse library.
+- The system of equations in linear problems can be solved using the full variety of Scipy solvers.
+- When solving the system of equations, the matrices are partitioned.
+- There is no limitation that node 1 must necessarily be a flow entry node. You can freely select any node with any boundary condition.
+- Nonlinear problems can be solved using the full range of scipy.optimize.minimize optimizers.
